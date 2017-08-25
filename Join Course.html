@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Join Course</title>
+                <link href="css/bootstrap.min.css" rel="stylesheet">
+                <link href="css/animate.css" rel="stylesheet">
+                <link href="css/font-awesome.min.css" rel="stylesheet">
+                <link href="css/Style.css" rel="stylesheet">
+                <link href="css/media.css" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Kurale" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+                <script src="js/html5shiv.min.js"></script>
+                <script src="js/respond.min.js"></script>
+    </head>
+    <body>
+                <nav class=" navbar navbar-default navbar-fixed-top" >
+                 <div class="container ">
+                   <!-- Brand and toggle get grouped for better mobile display -->
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                         <i id="open" class="fa fa-bars" aria-hidden="true"></i>
+                         <i id="close" class="fa fa-close" aria-hidden="true"></i>
+                     </button>
+                       <div class="Home_Tittle" >
+                           <img style="height: 40px; width: 40px;" src="Images/QINWAN-LOGO-COLOR.png" >
+                           <span class="text-danger"> Qinwan  </span>
+                           <span id="text"> Academy </span>
+                       </div>
+                      
+                   </div>
+
+
+                   
+                 </div>
+                    <div class="container-fluid text-center">
+                        <div class="container">
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav navbar-left">
+                          
+                         <li id="Home_Active"><a href="index.html">Home</a></li>
+                            <li id="H"><a href="#">About US</a></li> 
+                            <li ><a href="Join Course.html">Join Course</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Gallery</a></li>
+                       
+                           
+                     </ul>
+
+                   </div><!-- /.navbar-collapse -->
+                        </div>
+                        
+                    </div>
+                    
+                 
+</nav>
+             <div class="form1 container">
+                 <h1>Application Form</h1>
+                 <form action="" method="post" class="form-horizontal">
+                     
+                     <div id="Name" class="form-group">
+                     <label id="inputNam" for="inputName" class="col-sm-2 control-label">Name</label>
+                  <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputName" name="inputname" placeholder="Full Name">
+                  </div>
+                </div>
+                     
+                     
+                     
+                     <div id="Email" class="form-group">
+                         <label id="Inputmai" for="inputEmail" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail" name="inputmail" placeholder="Email">
+                  </div>
+                </div>
+                 <div id="Password" class="form-group">
+                         <label id="InputPassword" for="inputpass" class="col-sm-2 control-label">Password</label>
+                  <div class="col-sm-10">
+                      <input type="password" class="form-control" id="inputpass" name="inputpassword" placeholder="Password">
+                  </div>
+                </div>
+                     
+                     
+                     
+                     <div id="Mobile" class="form-group">
+                         <label id="InputMobil" for="inpuphone" class="col-sm-2 control-label">Mobile</label>
+                  <div class="col-sm-10">
+                      <input type="number" class="form-control" id="inpuphone" name="inputphone" placeholder="your Phone">
+                  </div>
+                </div>
+                     
+                     
+                     
+                     <div id="Age" class="form-group">
+                         <label id="inpuAg" for="inpuAge" class="col-sm-2 control-label">Age</label>
+                  <div class="col-sm-10">
+                      <input type="number" class="form-control" id="inpuAge" name="inputage" placeholder="Your Age">
+                  </div>
+                 </div>
+                     
+                     
+                     
+                     <div id="Gender" class="form-group">
+                         <label id="Inputgend" class="col-sm-2 control-label">Gender</label>
+                  <label class="radio-inline">
+                  <input type="radio" name="inputgender"  class="inlineRadio1" value="Male"> Male 
+                  </label>
+                  <label class="radio-inline" >
+                  <input type="radio" name="inputgender" class="inlineRadio1" value="Female"> Female
+                  </label>
+
+                 </div>
+                     
+                     
+                     
+                     
+                    
+                     <div id="Courses" class="form-group">
+                         <label id="Inputcourse" for="inpuCourse" class="col-sm-2 control-label">Course</label>
+                  <div class="col-sm-10">
+                      <select class="form-control" name="inputcourse" id="InputCourses">
+                          <option hidden>Choose Your Course</option>
+                          <option>HTML</option>
+                          <option>CSS</option>
+                          <option>JAVA</option>
+                          <option>PHP</option>
+                      </select>
+                  </div>
+                 </div>
+                     
+                     
+                     
+                     
+                     <div id="Address" class="form-group">
+                         <label id="Inputaddres" for="inputaddress" class="col-sm-2 control-label">Address</label>
+                  <div class="col-sm-10">
+                      <textarea class="form-control" id="inputaddress" placeholder="Address" name="inputaddress" rows="4"></textarea>
+
+                  </div>
+                 </div>
+                     
+                     
+                     
+                     
+                     
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                      <a href="">Conditions</a>
+                    <div class="radio">
+                      <label>
+                          <input type="radio"  name="conditions" class="Rade" value="Agree"> I Agree
+                      </label>
+                    </div>
+                      <div class="radio">
+                      <label>
+                          <input type="radio" name="conditions" class="Rade" value="Disagree"> I Disagree
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                     
+                     
+                     
+                <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10 ">
+                    <!-- <input type="submit" id="Submit" class="btn btn-primary" name="Submit" > -->
+                    <button type="submit" id="Submit" class="btn btn-primary" name="submit" >submit</button>
+              </div>
+                </div>
+                     
+                     
+                     
+</form>
+             </div>
+                 <section class="footer_Qinwan ">
+                      <div class="foo">
+                          <div class="container">
+                          <div class="row">
+                              <div class="foot_div col-lg-3">
+                                  <ul class="list-unstyled">
+                                    <li ><a href="#"><h3>Home</h3></a></li>
+                                    <li ><a href="#">News/Blog</a></li>
+                                    <li ><a href="#">FAQ</a></li>
+                                    <li ><a href="#">Project Matrix</a></li>
+                                    <li ><a href="#"><h4>Samples</h4></a></li>
+                                    <li ><a href="#">Download Samples</a></li>
+                                    <li ><a href="#"> Free Lessons</a></li>
+                                  </ul>
+                              </div>
+                              <div class="foot_div col-lg-3">
+                                  <ul class="list-unstyled">
+                                    <li ><a href="#"><h3>Home</h3></a></li>
+                                    <li ><a href="#">News/Blog</a></li>
+                                    <li ><a href="#">FAQ</a></li>
+                                    <li ><a href="#">Project Matrix</a></li>
+                                    <li ><a href="#"><h4>Samples</h4></a></li>
+                                    <li ><a href="#">Download Samples</a></li>
+                                    <li ><a href="#"> Free Lessons</a></li>
+                                  </ul>
+                              </div>
+                              <div class="foot_div col-lg-3">
+                                  <h3>Main Competitions</h3>
+                                  <div class="media">
+                                      <a class="pull-left" href="#">
+                                          <img class="media-object" src="Images/Main Events/02.png">
+                                      </a>
+                                      <div class="media-body">
+                                          <h4 class="media-heading">
+                                              Robo ME
+                                          </h4>
+                                          This is Our Main Robotics Competition for Students under 16 years Old 
+                                      </div>
+                                      
+                                  </div>
+                                  <div class="media">
+                                      <a class="pull-left" href="#">
+                                          <img class="media-object" src="Images/Main Events/03.png">
+                                      </a>
+                                      <div class="media-body">
+                                          <h4 class="media-heading">
+                                              Catch Fire
+                                          </h4>
+                                          This is Our Main Robotics Competition for Students under 16 years Old 
+                                      </div>
+                                      
+                                  </div>
+                                  <div class="media">
+                                      <a class="pull-left" href="#">
+                                          <img class="media-object" src="Images/Main Events/02.png">
+                                      </a>
+                                      <div class="media-body">
+                                          <h4 class="media-heading">
+                                              Soomo 
+                                          </h4>
+                                          This is Our Main Robotics Competition for Students under 16 years Old 
+                                      </div>
+                                      
+                                  </div>
+                              </div>
+                              
+                              <div class=" col-lg-3">
+                                 
+                                  <ul class="list-unstyled">
+                                      <li><h3>Contacts</h3></li>
+                                      <li><i class="fa fa-mobile-phone fa-lg"></i>     +2 01090843029 , 01125135421</li>
+                                      <li><p></p></li>
+                                      <li><i class="fa fa-envelope "></i>  Info@Qinwan.Academiy.org</li>
+                                      <li><p></p></li>
+                                      <li><i class="fa fa-map-marker fa-lg"></i>  El Salam Tower, Cornish El Maadi, next to El Salam International Hospital، 2nd Floor، Al Maadi, Cairo Governorate</li>
+                                      <li><p></p></li>
+                                      <li>  Follow Us <i class="fa fa-thumbs-up fa-lg"></i></li>
+                                  </ul>
+                                  <ul class="list-inline">
+                                      <li class="social_Media"><a href="#" target="_blank"><img src="Images/Social Media/facebook32flat.png"></a></li>
+                                      <li class="social_Media"><a href="#" target="_blank"><img src="Images/Social Media/Twitter 32.png"></a></li>
+                                      <li class="social_Media"><a href="#" target="_blank"><img src="Images/Social Media/youtube 32 flat.png"></a></li>
+                                      <li class="social_Media"><a href="#" target="_blank"><img src="Images/Social Media/google plus 32.png"></a></li>
+                                      <li class="social_Media"><a href="#" target="_blank"><img src="Images/Social Media/linkedin 32.png"></a></li>
+                                      
+                                
+                                  </ul>
+                              </div>
+                          </div> 
+                      </div>
+                          <div class="copyright">
+                          Copyright &COPY; 2017 <span>Your Templet Name</span> .Inc
+                      </div>
+                      </div>
+                      
+                      
+                  </section>
+                       
+            
+            
+            
+            
+            
+            
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+
+   
+        
+        $('#inputEmail').click(function (){
+              var x = $('#inputName').val();  
+           if(x==''){
+               
+               $('#Name').addClass("has-error");
+               $('#inputName').click(function (){
+               $('#Name').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Name').addClass("has-success");
+           };
+        });
+        $('#inputpass').click(function (){
+            var y = $('#inputEmail').val();
+          
+           if(y==''){
+               
+               $('#Email').addClass("has-error");
+               $('#inputEmail').click(function (){
+               $('#Email').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Email').addClass("has-success");
+           }; 
+        });
+        
+        $('#inpuphone').click(function (){
+           var p = $('#inputpass').val();
+           
+           if(p==''){
+               
+               $('#Password').addClass("has-error");
+               $('#inputpass').click(function (){
+               $('#Password').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Password').addClass("has-success");
+           };
+        });
+        
+        $('#inpuAge').click(function (){
+           /*  var x = $('#inputName').val();  
+            var y = $('#inputEmail').val(); */
+            var z = $('#inpuphone').val();
+          /*  if(x==''){
+               
+               $('#Name').addClass("has-error");
+               $('#inputName').click(function (){
+               $('#Name').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Name').addClass("has-success");
+           };
+           if(y==''){
+               
+               $('#Email').addClass("has-error");
+               $('#inputEmail').click(function (){
+               $('#Email').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Email').addClass("has-success");
+           }; 
+           */
+           if(z==''){
+               
+               $('#Mobile').addClass("has-error");
+               $('#inpuphone').click(function (){
+               $('#Mobile').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Mobile').addClass("has-success");
+           };
+           
+        });
+        
+       $('.inlineRadio1').click(function (){
+           /* var x = $('#inputName').val();  
+            var y = $('#inputEmail').val();
+            var z = $('#inpuphone').val();*/
+           
+        /*
+        if(x==''){
+               
+               $('#Name').addClass("has-error");
+               $('#inputName').click(function (){
+               $('#Name').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Name').addClass("has-success");
+           };
+           if(y==''){
+               
+               $('#Email').addClass("has-error");
+               $('#inputEmail').click(function (){
+               $('#Email').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Email').addClass("has-success");
+           };
+           if(z==''){
+               
+               $('#Mobile').addClass("has-error");
+               $('#inpuphone').click(function (){
+               $('#Mobile').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Mobile').addClass("has-success");
+           };
+           */
+           var a = $('#inpuAge').val();
+            if(a==''){
+               
+               $('#Age').addClass("has-error");
+               $('#inpuAge').click(function (){
+               $('#Age').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Age').addClass("has-success");
+           };
+        }); 
+        
+    $('#inputaddress').click(function (){
+          
+            var b = $('#InputCourses').val();
+           
+             if(b =='Choose Your Course'){
+               $('#Courses').addClass("has-error");
+               $('#InputCourses').click(function (){
+               $('#Courses').removeClass("has-error"); 
+               });
+           }
+           else{
+            
+               $('#Courses').addClass("has-success");
+           };
+        }); 
+        
+            $('.Rade').click(function (){
+          
+            var c = $('#inputaddress').val();
+           
+             if(c ==''){
+               $('#Address').addClass("has-error");
+               $('#inputaddress').click(function (){
+               $('#Address').removeClass("has-error"); 
+               });
+           }
+           else{
+            
+               $('#Address').addClass("has-success");
+           };
+        });
+            $('#Submit').click(function (){
+          
+            var a = $('#inpuAge').val();
+            if(a==''){
+               
+               $('#Age').addClass("has-error");
+               $('#inpuAge').click(function (){
+               $('#Age').removeClass("has-error"); 
+               });
+           }
+           else{
+               $('#Age').addClass("has-success");
+           };
+        });
+    
+    </script>
+    
+    
+    </body>
+</html>
